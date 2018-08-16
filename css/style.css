@@ -25,6 +25,14 @@ body {
 .button_small {
   padding: .3rem 1.5rem; }
 
+.cf:after,
+.cf:before {
+  content: '';
+  display: table; }
+
+.cf:after {
+  clear: both; }
+
 #banner {
   background-image: url(../img/banner.jpg);
   background-repeat: no-repeat;
@@ -49,7 +57,7 @@ body {
       text-decoration: none;
       margin-left: 2rem; }
   #banner .content {
-    padding: 4rem 0  8rem 0; }
+    padding: 10rem 0  10rem 0; }
     #banner .content .title, #banner .content .sub_title {
       color: #eeeeee;
       text-align: center; }
@@ -68,3 +76,30 @@ body {
       margin: 4rem 0; }
       #banner .content .button_wrapper .button {
         margin: 0 .75rem; }
+
+#services {
+  background: #f2f1f8;
+  padding: 2rem 0 6.5rem 0;
+  margin: -2rem 1.5rem 1.5rem 1.5rem;
+    margin-position: relative; }
+  #services .service {
+    background: #fff;
+    width: 26%;
+    float: left;
+    margin: -5.5rem 1% 0 1%;
+    padding: 3rem 2.5%;
+    text-align: center;
+    position: relative;
+    -webkit-box-shadow: 0px 0px 57px 0px rgba(4, 6, 9, 0.25);
+    -moz-box-shadow: 0px 0px 57px 0px rgba(4, 6, 9, 0.25);
+    box-shadow: 0px 0px 57px 0px rgba(4, 6, 9, 0.25);
+    border-radius: .35rem; }
+    #services .service h3 {
+      margin: 0;
+      font-size: 1.5rem;
+      color: #222831; }
+    #services .service p {
+      margin: 0 0 2rem 0;
+      color: #222831; }
+    #services .service .button {
+      padding: .5rem 2rem; }
