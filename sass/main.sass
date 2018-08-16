@@ -1,6 +1,6 @@
 // Variables
 $white: #eeeeee
-$highlight: #b68f40
+$highlight: #01baef
 $grey_background: #f2f1f8
 $grey_text : #b9b7c6
 $dark_grey: #222831
@@ -133,6 +133,23 @@ body
 
         .button
             padding: .5rem 2rem
+
+        &:after // Line that comes out the cards
+            content: ''
+            position: absolute
+            left: 50%
+            bottom: -50px
+            height: 50px
+            border-left: 2px solid #c9c7d3 
+ 
+    &:before 
+        content: ''
+        position: absolute
+        left: 50%
+        bottom: -59.5px
+        border-top: 2px solid #c9c7d3 
+        width: 818px 
+        margin-left: -412.8px   
  
 
 

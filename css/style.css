@@ -17,7 +17,7 @@ body {
   color: #eeeeee; }
 
 .button_highlight {
-  background: #b68f40; }
+  background: #01baef; }
 
 .button_secondary {
   background: rgba(238, 238, 238, 0.25); }
@@ -103,3 +103,18 @@ body {
       color: #222831; }
     #services .service .button {
       padding: .5rem 2rem; }
+    #services .service:after {
+      content: '';
+      position: absolute;
+      left: 50%;
+      bottom: -50px;
+      height: 50px;
+      border-left: 2px solid #c9c7d3; }
+  #services:before {
+    content: '';
+    position: absolute;
+    left: 50%;
+    bottom: -59.5px;
+    border-top: 2px solid #c9c7d3;
+    width: 818px;
+    margin-left: -412.8px; }
