@@ -1,0 +1,14 @@
+{
+  "name": "agencyls",
+  "version": "1.0.0",
+  "description": "Landing page for an Agency",
+  "main": "index.js",
+  "scripts": {
+    "compile-sass": "node-sass sass/main.sass css/style.css -w "
+  },
+  "author": "TejjMK",
+  "license": "ISC",
+  "devDependencies": {
+    "node-sass": "^4.9.3"
+  }
+}
